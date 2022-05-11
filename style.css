@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container {
+    width: 370px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image img {
+    width: 370px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.text {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+h2 {
+    padding: 30px;
+    font-weight: 900;
+}
+
+.btn1 {
+    background-color: hsl(245, 75%, 52%);
+    width: 300px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.btn2 {
+    background-color: aqua;
+    width: 300px;
+    height: 40px;
+    border: none;
+    background-color: white;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+h {
+    color: hsl(245, 75%, 52%);
+}
+
+u {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+u:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: lightblue;
+}
+
+.btn1:hover {
+    background-color: hsl(245, 75%, 52%, 0.5);
+}
+
+.btn2:hover {
+    color: black;
+    cursor: pointer;
+}
+
+ul span {
+    display: table;
+}
+
+p {
+    width: 300px;
+    display: inline-block;
+}
+
+.buttons {
+    display: inline-block;
+    text-align: center;
+}
+
